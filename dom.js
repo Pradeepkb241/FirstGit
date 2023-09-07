@@ -20,3 +20,10 @@ li[0].style.backgroundColor ='yellow';
 li[0].style.listStyle='none';
 li[0].style.fontWeight='bold';
 li[0].style.padding='4px 20px'
+
+let ul = document.querySelectorAll('.list-group-item');
+ul[1].style.color ='green';
+
+ul[0].style.backgroundColor='green';
+ul[2].style.backgroundColor='green';
+ul[5].style.backgroundColor='green';
