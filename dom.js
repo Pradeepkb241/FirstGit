@@ -14,3 +14,9 @@ for(let i = 0; i <list.length;i++){
     list[i].style.backgroundColor = 'yellow';
     list[i].style.fontWeight='bold';
 }
+
+let li = document.getElementsByClassName('cls')
+li[0].style.backgroundColor ='yellow';
+li[0].style.listStyle='none';
+li[0].style.fontWeight='bold';
+li[0].style.padding='4px 20px'
